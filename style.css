@@ -1,0 +1,30 @@
+.container1{
+    height: 100px;
+    width: 250px;
+    background-color: cyan;
+    color: black;
+    font-size: 30px;
+    padding:3%;
+    margin-left: 100px;
+    margin-top: 85px;
+}
+.container1:hover{
+    background-color: red;
+    color: darkblue;
+    ;
+    transition-delay: 4ms;
+    transform: skew(45deg)
+}
+.container2{
+    height: 100px;
+    width: 250px;
+    background-color: magenta;
+    color: yellow;
+    font-size: 30px;
+    padding:3%;
+    margin-left: 100px;
+    margin-top: 85px;
+}
+.container2:hover{
+    transform: scale(0.5,0.5);
+}
